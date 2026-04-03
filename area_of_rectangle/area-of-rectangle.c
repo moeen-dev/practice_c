@@ -3,13 +3,13 @@
 
 int main()
 {
-    int Base, Height, Area;
+    float Base, Height, Area;
 
     printf("Enter Base and Height:");
-    scanf("%d %d", &Base, &Height);
+    scanf("%f %f", &Base, &Height);
 
     Area = Base * Height;
 
-    printf("The area of Rectangle = %d", Area);
+    printf("The area of Rectangle = %f", Area);
     return 0;
 }
